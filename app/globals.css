@@ -8,19 +8,26 @@
   @apply flex flex-row;
 }
 @media (orientation: portrait) {
-  .soso {
+  .long {
     @apply col;
   }
-  .hihi {
+  .short {
     @apply row;
   }
 }
 
 @media (orientation: landscape) {
-  .soso {
+  .long {
     @apply row;
   }
-  .hihi {
+  .short {
     @apply col;
   }
+}
+
+button {
+  @apply btn;
+}
+div {
+  @apply flex;
 }
